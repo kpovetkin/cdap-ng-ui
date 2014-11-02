@@ -1,6 +1,14 @@
 cdap-ng-ui
 ==========
 
+# Dependencies
+
+To install dependencies:
+```
+$ npm install
+$ bower install
+```
+
 # Grunt options
 
 ## Development server
