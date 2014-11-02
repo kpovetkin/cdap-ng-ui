@@ -1,0 +1,8 @@
+<ul data-ng-controller="MenuCtrl">
+    <li data-ng-repeat="item in menuItems" class="{{ item.name }}" data-ng-class="{active: item.url == locationPath}">
+        <a data-ng-href="#{{ item.url }}">
+            <div class="menu-item-logo"></div>
+            <span class="menu-item-label" data-ng-bind="item.displayName"></span>
+        </a>
+    </li>
+</ul>

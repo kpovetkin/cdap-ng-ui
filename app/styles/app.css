@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "Gotham";
+  font-weight: bolder;
+  src: url("../fonts/Gotham-Black.otf");
+  src: url("../fonts/Gotham-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: bolder;
+  font-style: italic;
+  src: url("../fonts/Gotham-BlackItalic.otf");
+  src: url("../fonts/Gotham-BlackItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: bold;
+  src: url("../fonts/Gotham-Bold.otf");
+  src: url("../fonts/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: bolder;
+  font-style: italic;
+  src: url("../fonts/Gotham-BoldItalic.otf");
+  src: url("../fonts/Gotham-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: normal;
+  src: url("../fonts/Gotham-Book.otf");
+  src: url("../fonts/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Gotham-BookItalic.otf");
+  src: url("../fonts/Gotham-BookItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: lighter;
+  src: url("../fonts/Gotham-Light.otf");
+  src: url("../fonts/Gotham-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../fonts/Gotham-LightItalic.otf");
+  src: url("../fonts/Gotham-LightItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: normal;
+  src: url("../fonts/Gotham-Medium.otf");
+  src: url("../fonts/Gotham-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Gotham-MediumItalic.otf");
+  src: url("../fonts/Gotham-MediumItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 300;
+  src: url("../fonts/Gotham-Thin.otf");
+  src: url("../fonts/Gotham-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/Gotham-ThinItalic.otf");
+  src: url("../fonts/Gotham-ThinItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 900;
+  src: url("../fonts/Gotham-Ultra.otf");
+  src: url("../fonts/Gotham-Ultra.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../fonts/Gotham-UltraItalic.otf");
+  src: url("../fonts/Gotham-UltraItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 200;
+  src: url("../fonts/Gotham-XLight.otf");
+  src: url("../fonts/Gotham-XLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 200;
+  font-style: italic;
+  src: url("../fonts/Gotham-XLightItalic.otf");
+  src: url("../fonts/Gotham-XLightItalic.otf") format("opentype");
+}
+.clear-fix {
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120px;
+  bottom: 0;
+  background-color: #3C4355;
+}
+#page-wrapper {
+  position: fixed;
+  top: 0;
+  left: 120px;
+  right: 0;
+  bottom: 0;
+  background-color: #F1F0EE;
+}
+#page-wrapper #header {
+  box-sizing: border-box;
+  height: 80px;
+  background-color: #fff;
+}
+#page-wrapper #content-wrapper #page-info {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 20px 40px;
+  background-color: #F0F1F3;
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+}
+#page-wrapper #footer {
+  box-sizing: border-box;
+  height: 104px;
+  padding: 32px 0;
+}
+#nav ul[data-menu] li {
+  padding: 16px 0;
+  opacity: 0.7;
+  text-align: center;
+}
+#nav ul[data-menu] li:hover {
+  opacity: 1;
+}
+#nav ul[data-menu] li.active a {
+  color: #ff6600;
+}
+#nav ul[data-menu] li a {
+  text-decoration: none;
+  color: #fff;
+}
+#nav ul[data-menu] li a span {
+  text-align: center;
+}
+#nav ul[data-menu] li a .menu-item-logo {
+  width: 38px;
+  height: 38px;
+  margin: 0 auto;
+}
+#nav ul[data-menu] li.cdap a span {
+  display: none;
+}
+#nav ul[data-menu] li.cdap a .menu-item-logo {
+  width: 40px;
+  height: 50px;
+  background-image: url('../images/cask_logo_o.png');
+}
+#nav ul[data-menu] li.application a .menu-item-logo {
+  background-image: url('../images/app_icon.png');
+}
+#nav ul[data-menu] li.application.active a .menu-item-logo {
+  background-image: url('../images/app_active_icon.png');
+}
+#nav ul[data-menu] li.collect a .menu-item-logo {
+  background-image: url('../images/collect_icon.png');
+}
+#nav ul[data-menu] li.collect.active a .menu-item-logo {
+  background-image: url('../images/collect_active_icon.png');
+}
+#nav ul[data-menu] li.process a .menu-item-logo {
+  background-image: url('../images/process_icon.png');
+}
+#nav ul[data-menu] li.process.active a .menu-item-logo {
+  background-image: url('../images/process_active_icon.png');
+}
+#nav ul[data-menu] li.store a .menu-item-logo {
+  background-image: url('../images/store_icon.png');
+}
+#nav ul[data-menu] li.store.active a .menu-item-logo {
+  background-image: url('../images/store_active_icon.png');
+}
+#nav ul[data-menu] li.query a .menu-item-logo {
+  background-image: url('../images/query_icon.png');
+}
+#nav ul[data-menu] li.query.active a .menu-item-logo {
+  background-image: url('../images/query_active_icon.png');
+}

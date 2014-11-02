@@ -1,0 +1,50 @@
+@import 'libs/helpers';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@nav-panel-width: 120px;
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: @nav-panel-width;
+  bottom: 0;
+  background-color: #3C4355;
+}
+
+#page-wrapper {
+  position: fixed;
+  top: 0;
+  left: @nav-panel-width;
+  right: 0;
+  bottom: 0;
+  background-color: #F1F0EE;
+
+  #header {
+    box-sizing: border-box;
+    height: 80px;
+    background-color: #fff;
+  }
+
+  #content-wrapper {
+    #page-info {
+      box-sizing: border-box;
+      height: 80px;
+      padding: 20px 40px;
+      background-color: #F0F1F3;
+      border-top: 1px solid #DEDEDE;
+      border-bottom: 1px solid #DEDEDE;
+    }
+  }
+
+  #footer {
+    box-sizing: border-box;
+    height: 104px;
+    padding: 32px 0;
+  }
+}
